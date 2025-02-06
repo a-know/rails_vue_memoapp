@@ -26,6 +26,7 @@ RUN bundle install
 
 # RUN rails db:create
 # RUN rails webpacker:install
+# RUN rails webpacker:install:vue
 
 # ポートを公開
 EXPOSE 3000
