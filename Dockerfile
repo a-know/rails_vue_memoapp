@@ -24,6 +24,9 @@ COPY . .
 
 RUN bundle install
 
+# RUN rails db:create
+# RUN rails webpacker:install
+
 # ポートを公開
 EXPOSE 3000
 
