@@ -24,6 +24,13 @@ COPY . .
 
 RUN bundle install
 
+RUN yarn add --dev @babel/plugin-proposal-private-methods
+RUN yarn add --dev @babel/plugin-proposal-private-property-in-object
+
+# RUN rails db:create
+# RUN rails webpacker:install
+# RUN rails webpacker:install:vue
+
 # ポートを公開
 EXPOSE 3000
 
