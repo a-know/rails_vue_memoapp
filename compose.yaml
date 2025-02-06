@@ -1,0 +1,11 @@
+services:
+  memoapp:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/memoapp
+    tty: true
+    stdin_open: true
+    command: bash # コンテナ内でbashを起動。Railsサーバーは手動で起動
