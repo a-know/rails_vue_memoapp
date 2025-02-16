@@ -26,6 +26,7 @@ RUN bundle install
 
 RUN yarn add --dev @babel/plugin-proposal-private-methods
 RUN yarn add --dev @babel/plugin-proposal-private-property-in-object
+RUN yarn add axios
 
 # RUN rails db:create
 # RUN rails webpacker:install
