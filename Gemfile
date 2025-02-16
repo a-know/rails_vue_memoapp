@@ -57,3 +57,6 @@ group :test do
 end
 
 gem 'webpacker', '~> 5.0'
+
+# For dummy data
+gem 'faker'
